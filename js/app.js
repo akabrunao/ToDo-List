@@ -73,6 +73,8 @@ document.addEventListener("keyup", function (event) {
       localStorage.setItem("TODO", JSON.stringify(LIST));
 
       id++;
+
+      document.querySelector("#input").value = "";
     }
   }
 });
